@@ -1,5 +1,24 @@
-# presentation-edx
-my Open edX slide decks
+# Creating Presentation Slides with Jupyter notebook
+*  jupyter notebook --notebook-dir="." ：编辑ipynb原始文件
+*  jupyter-nbconvert --to slides Open_edX.ipynb --reveal-prefix="http://cdn.bootcss.com/reveal.js/3.3.0"  --post serve  //编译
+*  修改theme：在生成的html里，修改：css/theme,目前只有simple和sky比较正常，使有的可选项为
 
-# 制作
-采用jupyter，参考[jupyter使用小结](http://blog.just4fun.site/jupyter-summary.html),也可以使用pandoc：[文档格式转化神器pandoc](http://blog.just4fun.site/document-factory-pandoc.html)
+```
+beige.css
+black.css
+blood.css
+league.css
+moon.css
+night.css
+README.md
+serif.css
+simple.css
+sky.css
+solarized.css
+white.css
+```
+
+# 知识点
+
+# 参考
+* [blog post](http://echorand.me/presentation-slides-with-jupyter-notebook.html#.V19WnWJ96V4) 
