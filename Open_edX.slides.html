@@ -273,7 +273,7 @@ a.anchor-link {
 
 <p> <b>wwj718</b>
 
-<p>July 17, 2016 
+<p>2016-07-17
 
 <p>Beijing Open edX Meetup
 </center>
@@ -472,7 +472,7 @@ a.anchor-link {
 </div>
 
 </div>
-</aside></section><section>
+</aside></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -516,6 +516,16 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="&#39033;&#30446;&#32467;&#26500;">&#39033;&#30446;&#32467;&#26500;<a class="anchor-link" href="#&#39033;&#30446;&#32467;&#26500;">&#182;</a></h1><p><img src="https://leanote.com/api/file/getImage?fileId=578a49afab644135ea01193d" alt=""></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Studio&#65288;CMS&#65289;">Studio&#65288;CMS&#65289;<a class="anchor-link" href="#Studio&#65288;CMS&#65289;">&#182;</a></h2><div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">www</span><span class="o">-</span><span class="n">data</span> <span class="o">/</span><span class="n">edx</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">python</span><span class="o">.</span><span class="n">edxapp</span> <span class="o">/</span><span class="n">edx</span><span class="o">/</span><span class="n">app</span><span class="o">/</span><span class="n">edxapp</span><span class="o">/</span><span class="n">edx</span><span class="o">-</span><span class="n">platform</span><span class="o">/</span><span class="n">manage</span><span class="o">.</span><span class="n">py</span> <span class="n">cms</span> <span class="n">runserver</span> <span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span><span class="p">:</span><span class="mi">5000</span> <span class="o">--</span><span class="n">settings</span> <span class="n">devstack</span>
 </pre></div>
 
@@ -544,11 +554,11 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Analytics">Analytics<a class="anchor-link" href="#Analytics">&#182;</a></h2><ul>
-<li></li>
-<li></li>
-<li></li>
+<li>edx-analytics-dashboard</li>
+<li>edx-analytics-pipeline</li>
+<li>edx-analytics-data-api</li>
 </ul>
-<p><img src="http://edx.readthedocs.io/projects/edx-insights/en/latest/_images/problem_display_name.png" alt="problem_display_name"></p>
+<p><img src="https://edx.readthedocs.io/projects/edx-developer-guide/en/latest/_images/edx-architecture-analytics.png" alt="架构"></p>
 
 </div>
 </div>
@@ -622,7 +632,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#24322;&#26500;">&#24322;&#26500;<a class="anchor-link" href="#&#24322;&#26500;">&#182;</a></h1><ul>
+<h2 id="&#24322;&#26500;">&#24322;&#26500;<a class="anchor-link" href="#&#24322;&#26500;">&#182;</a></h2><ul>
 <li>Python Nodejs Ruby </li>
 <li>Mysql MongoDB </li>
 <li>Backbone.js Require.js</li>
@@ -656,8 +666,21 @@ a.anchor-link {
 </li>
 </ul>
 </li>
-<li>siteapi</li>
+<li>siteapi<ul>
+<li>spoc</li>
 </ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="&#26381;&#21153;&#32452;&#20214;&#21270;&#24102;&#26469;&#30340;&#22909;&#22788;(&#26131;&#20110;&#20998;&#24067;&#24335;)">&#26381;&#21153;&#32452;&#20214;&#21270;&#24102;&#26469;&#30340;&#22909;&#22788;(&#26131;&#20110;&#20998;&#24067;&#24335;)<a class="anchor-link" href="#&#26381;&#21153;&#32452;&#20214;&#21270;&#24102;&#26469;&#30340;&#22909;&#22788;(&#26131;&#20110;&#20998;&#24067;&#24335;)">&#182;</a></h3><p><img src="https://leanote.com/api/file/getImage?fileId=578a5098ab644133ed01154d" alt=""></p>
 
 </div>
 </div>
@@ -687,6 +710,7 @@ a.anchor-link {
 <li>特性：非侵入性，聚合资源，纳入edx评价体系</li>
 </ul>
 </li>
+<li>djangoapp</li>
 </ul>
 
 </div>
@@ -716,7 +740,7 @@ a.anchor-link {
 <li>API</li>
 <li>data<ul>
 <li>学习行为</li>
-<li>成绩数据（mit开发64w匿名数据）</li>
+<li>成绩数据（匿名数据）</li>
 </ul>
 </li>
 <li>LTI</li>
@@ -769,32 +793,28 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#20934;&#22791;&#24320;&#28304;&#30340;&#39033;&#30446;">&#20934;&#22791;&#24320;&#28304;&#30340;&#39033;&#30446;<a class="anchor-link" href="#&#20934;&#22791;&#24320;&#28304;&#30340;&#39033;&#30446;">&#182;</a></h1><h3 id="&#25968;&#25454;&#20998;&#26512;">&#25968;&#25454;&#20998;&#26512;<a class="anchor-link" href="#&#25968;&#25454;&#20998;&#26512;">&#182;</a></h3><ul>
+<h1 id="&#35745;&#21010;&#24320;&#28304;&#30340;&#39033;&#30446;">&#35745;&#21010;&#24320;&#28304;&#30340;&#39033;&#30446;<a class="anchor-link" href="#&#35745;&#21010;&#24320;&#28304;&#30340;&#39033;&#30446;">&#182;</a></h1><h3 id="&#25968;&#25454;&#20998;&#26512;">&#25968;&#25454;&#20998;&#26512;<a class="anchor-link" href="#&#25968;&#25454;&#20998;&#26512;">&#182;</a></h3><ul>
 <li>基于elk的track log实时数据分析</li>
 <li>基于caravel的数据库挖掘和可视化</li>
-<li>基于pandas的数据探索
-### </li>
-<li>Open edX的</li>
+<li>基于pandas的数据探索</li>
 </ul>
 
 </div>
 </div>
 </div><aside class="notes">
 
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">&gt;</span>  <span class="err">如果没有更多的精力推进一个有趣的想法，最好的方式就是将它开源</span>
-<span class="o">&gt;</span>  <span class="err">学习一样东西的最好方式就是去将它教授给其他人</span>
-<span class="o">&gt;</span>  <span class="err">如果你不能最终告诉别人你一直在做什么，那么你的研究就一文不值</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<blockquote><p>如果没有更多的精力推进一个有趣的想法，最好的方式就是将它开源
+ 学习一样东西的最好方式就是去将它教授给其他人
+ 如果你不能最终告诉别人你一直在做什么，那么你的研究就一文不值</p>
+</blockquote>
 
 </div>
 </div>
-</div>
-
 </div>
 </aside></section></section>
 </div>
