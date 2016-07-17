@@ -1,3 +1,7 @@
+# 观看ppt
+下载下来之后，直接用浏览器打开Open_edX.slides.html就行
+
+
 # Creating Presentation Slides with Jupyter notebook
 *  jupyter notebook --notebook-dir="." ：编辑ipynb原始文件
 *  jupyter-nbconvert --to slides Open_edX.ipynb --reveal-prefix="http://cdn.bootcss.com/reveal.js/3.3.0"  --post serve  //编译
